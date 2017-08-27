@@ -131,7 +131,6 @@ print(my_list)
 print(copy_list)
 
 
-
 # for duplicate removal you can create a new set based on the list
 my_list = ['a','a','b','b','c','c']
 print(my_list)
@@ -139,3 +138,11 @@ my_set = set(my_list)
 print(my_set)
 
 
+# you can check if a list is empty by simply putting list name as the
+# condition
+empty_list = []
+print(empty_list)
+if empty_list:  # same as len(empty_list) != 0
+    print('list is not empty')
+else:
+    print('list is empty')
