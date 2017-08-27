@@ -132,8 +132,10 @@ print(copy_list)
 
 
 
-
-
-
+# for duplicate removal you can create a new set based on the list
+my_list = ['a','a','b','b','c','c']
+print(my_list)
+my_set = set(my_list)
+print(my_set)
 
 
