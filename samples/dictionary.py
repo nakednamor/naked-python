@@ -13,3 +13,13 @@ for k in my_dict.keys():
 # ommiting .keys() loops also on keys
 for k in my_dict:
     print(k)
+
+# you can loop through all values
+for v in my_dict.values():
+    print("this is a map value: " + v)
+
+
+# you can loop through all key-values
+for k, v in my_dict.items():
+    print("key: " + k + ", with value: " + v)
+    
