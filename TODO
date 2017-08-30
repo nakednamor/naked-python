@@ -1,0 +1,6 @@
+- text to morse-code (using LED's with Raspberry Pi)
+- morse-code to text (using Raspberry Pi)
+- Google Assistant or Amazon Alexa add-ons like:
+	- "at what time leaves the next train from Stockerau to Wien Mitte ?"
+	- "play some music from Iron Maiden"
+	- "give me a recipie for some pasta" 
