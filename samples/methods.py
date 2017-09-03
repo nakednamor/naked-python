@@ -53,3 +53,16 @@ def give_something_back(input):
 
 output = give_something_back("some method input")
 print("the method returns: " + output)
+
+
+# when you you pass a list to a function, the function will alter the 
+# original list ... if you don't want your list to be changed, you need
+# to pass a copy of the list
+original_list = ['a', 'b', 'c', 'd', 'e']
+print(original_list)
+
+def some_method_which_alters_the_argument(some_list):
+    some_list.pop()
+
+some_method_which_alters_the_argument(original_list)
+print(original_list)
