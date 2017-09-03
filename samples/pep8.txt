@@ -1,0 +1,10 @@
+PEP 8 is the coding style guide for Python. You can install a tool which
+allows you to validate your source files against this guide.
+
+sudo apt-get install python3-pep8
+
+usage: pep8 your-file.py
+
+
+https://wiki.ubuntuusers.de/pep8/
+https://pypi.python.org/pypi/pep8
