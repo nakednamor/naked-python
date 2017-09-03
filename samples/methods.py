@@ -66,3 +66,13 @@ def some_method_which_alters_the_argument(some_list):
 
 some_method_which_alters_the_argument(original_list)
 print(original_list)
+
+
+# you can define functions which take a not defined amount of arguments:
+def do_stuff(*stuffs):
+	print(len(stuffs))
+	for stuff in stuffs:
+		print stuff
+
+do_stuff('a')
+do_stuff('a', 'b')
