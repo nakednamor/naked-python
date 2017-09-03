@@ -6,3 +6,11 @@
 	- "give me a recipie for some pasta" 
 	- "what is the weather forecast for Stockerau tomorrow?"
 	- "send me a remember-email with the following note: ..."
+
+- App or application with Google Assistant/Alexa ?
+	- title: x minute egg
+	- to get the correct cooking time for you egg, you make a
+	  a photo of your egg(s) including something from 
+	  which the size can be determined (e.g. a coin) and the 
+	  app calculates the correct cooking time according to the
+	  size of the egg (average size in case of more than one egg)
