@@ -1,5 +1,7 @@
 - text to morse-code (using LED's with Raspberry Pi)
 - morse-code to text (using Raspberry Pi)
+- text-analyzer: app for analyzing text files from a directory; e.g. most used word/letter, chapters, amount of dates, emails, ...
+- pep8 validator: app for validating python source files against PEP8
 - Google Assistant or Amazon Alexa add-ons like:
 	- "at what time leaves the next train from Stockerau to Wien Mitte ?"
 	- "play some music from Iron Maiden"
